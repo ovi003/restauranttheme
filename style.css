@@ -1,0 +1,274 @@
+/*
+Theme Name: Fresh Food Restaurant
+Theme URI: www.clothhost.com
+Author : Ovi
+Author URI: www.facebook.com
+Description: Restaurant website
+Tag: Restaurant website,blog etc
+*/
+img{
+	max-width: 100%!important;
+}
+.navbar-inverse{
+	border-radius: 0!important;
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+.navbar-brand{
+	height: auto!important;
+}
+.navbar-nav{
+	margin-top: 20px!important;
+}
+.navbar-nav > li > a{
+	padding:5px 12px!important;
+	border-radius: 10px;
+	color: white!important;
+	line-height: 30px!important;
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    -webkit-transition: height 0.65s ease;
+  	transition: height 0.65s ease;
+}
+.navbar-inverse .navbar-nav .dropdown-menu{
+	border:0;
+	top:40px;
+	padding: 0;
+	margin-top: 0;
+	border-top: 0;
+	left:0;
+	box-shadow: none;
+	background-color: black;
+	transition:0.8s ease-in-out;
+	-moz-transition:0.8s ease-in-out;
+	-o-transition:0.8s ease-in-out;
+	-webkit-transition:all 0.8s ease-in-out;
+}
+.navbar-inverse .navbar-nav .dropdown-menu>li>a{
+	padding: 8px 5px!important;
+	color: white!important;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
+.navbar-inverse .navbar-nav .dropdown-menu > li:active > a,
+.navbar-inverse .navbar-nav .dropdown-menu > li:focus> a{
+	color: white!important;
+	background-color: transparent!important;
+	text-decoration: underline;
+
+}
+.navbar{
+	border-bottom: 0!important;
+	margin-bottom: 0!important;
+}
+/*------- Carousel code-------*/
+.item{
+	height: 500px;
+	background-position: center;
+}
+#myslide{
+	padding: 0!important;
+	margin-top: 82px;
+}
+
+#welcome{
+	text-align: center;
+	padding: 15px;
+}
+#welcome h3{
+	color: #222;
+}
+#feature{
+	margin-top: 30px;
+}
+.panel-body img{
+	height: 200px;
+	width: 100%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: 2px solid #222222;
+}
+.panel-black{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 293px;
+	border:2px solid #222222!important;
+	box-sizing:border-box;
+	box-shadow: 0px 0px 15px black!important;
+	border-radius: 0px!important;
+}
+.panel-black .panel-heading{
+	background-color: #222222;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 0px;
+}
+.panel-body{
+	padding: 0px!important;
+}
+.panel-body p{
+	margin: 8px;
+}
+
+/*----- Code for menu----*/
+#menus{
+	margin-bottom: 20px;
+}
+#menus h3{
+	text-align: center;
+	color: #222;
+	margin-bottom: 30px;
+	text-transform:uppercase;
+}
+.i_icon{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#m_list img{
+	box-shadow: 0px 2px 5px;
+	border-radius: 50%;
+	height: 220px;
+	width: 220px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+#m_list a{
+	text-decoration: none;
+
+}
+#m_list h4{
+	text-align: center;
+	text-transform: uppercase;
+	color: #222 ;
+}
+#blog_page img{
+	height: 150px;
+	width: 200px;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+#blog_page h3{
+	margin: 0px;
+	padding: 0px;
+}
+
+#blog_page{
+	margin-top: 82px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+
+}
+
+#blog_content:last-child
+{
+    border-bottom:none;
+}
+#blog_content{
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+#blog_page nav{
+	text-align: center;
+}
+.btn-black{
+	background-color: #222;
+	color: white;
+	margin: 10px;
+}
+.btn:hover{
+	color: white!important;
+}
+.pagination>li>a{
+	color: #222!important;
+}
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover{
+	background-color: #222!important;
+	border: 1px solid #222!important;
+}
+/*----- Code for blog sidebar----*/
+#blog_sidebar{
+	margin-bottom: 20px;
+}
+#blog_sidebar h3{
+	margin: 0px;
+}
+#blog_sidebar ul{
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+#blog_sidebar ul li{
+	list-style: none;
+	text-decoration: none;
+	line-height: 30px;
+	padding: 10px 5px;
+	border-bottom: 1px solid lightgray;
+}
+#blog_sidebar ul li a{
+	text-decoration: none;
+	color: #222;
+	margin-top: 5px;
+}
+
+#blog_sidebar li:last-child{
+	border-bottom: none;
+}
+#blog_sidebar h3{
+	background-color:#222;
+	color: white;
+	padding: 5px;
+}
+#single_page{
+	margin-top: 82px;
+}
+/*----- Code for footer----*/
+footer{
+	background-color: #222;
+	color:white;
+}
+#footer{
+	padding: 50px 10px ;
+}
+#f_area{
+	color: white;
+}
+#f_area h3{
+	margin: 0;
+	padding: 0;
+  	margin-bottom: 10px;
+}
+#f_area ul{
+	margin: 0;
+	padding: 0;
+}
+#f_area li{
+	list-style: none;
+}
+#f_area li a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+footer p{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	padding-bottom: 10px;
+}
